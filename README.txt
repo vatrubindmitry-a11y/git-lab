@@ -1,3 +1,3 @@
 My first Git project
-Git lesson 6
+Line from conflict
 FEauter line
