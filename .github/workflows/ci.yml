@@ -5,5 +5,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+      run: actions/checkout@v4
+
+      - name: Check README
+      run: ls -l && test -f README.txt
+
       - name: Show message
-      run: echo "CI is work"
+      run: echo "CI work"
